@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212529;
+}
+.nav{
+    width:100vw;
+    height:50px;
+    background-color:  #343a40;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+   
+}
+ul li{
+   
+    display: inline-block;
+    margin-top:15px;
+    margin-right: 100px;
+}
+ul li a{
+    color:#f8ad9d;
+    text-decoration: none;
+    transition:all 0s ease-in;
+
+}
+ul li a:hover{
+    color:#e0e1dd;
+}
+
+.info{
+    position: relative;
+    top:100px;
+    color:#6c757d;
+    font-size: 15px;
+    margin:5px;
+    padding: 5px;
+}
+
+.info h1{
+    font-size:40px;
+    line-height: 3px;
+}
+
+
+.info span{
+    color:#f8ad9d;
+}
+
+#one{
+    height: 600px; 
+    width: 1200px;
+    position: absolute;
+    left: 40%;
+    top:5%;
+    transition: all 2s ease-in;
+}
+
+#two{
+    height: 200px; 
+    width: 200px;
+    position: relative;
+    left: 1015px;
+    top: 60px;
+    transition: all 2s ease-in;
+}
+
+#two:hover{
+   transform: translate(20px);
+}
+
+#one:hover{
+    transform: translatex(-20px);
+}
+
+#contact{
+    color: #f8ad9d;
+}
+#contact ul li{
+    margin: 10px;
+    font-size: 25px;
+}
+
+#contact button{
+    background-color: #6c757d;
+    color:#f8ad9d;
+    margin:10px;
+    font-size: 15px;
+    padding:5px;
+   
+    
+}
+
+#contact button:hover{
+    background-color:white ;
+}
